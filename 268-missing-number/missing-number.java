@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int sum = 0;
         int Osum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++){
             sum += nums[i];
             Osum += i + 1;
         }
