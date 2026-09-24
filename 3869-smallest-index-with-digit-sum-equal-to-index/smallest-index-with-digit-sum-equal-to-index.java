@@ -7,6 +7,7 @@ class Solution {
             nums[i]=nums[i]/10;
             sum += dig;
         }
+        
         if(sum == i){
             return i;
         }
