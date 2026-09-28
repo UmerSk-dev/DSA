@@ -6,7 +6,7 @@ class Solution {
         for (int i = 0; i < n; i++){
             sum += nums[i];
             Osum += i + 1;
-        }
+        }       
         return Osum - sum;
     }
 }
